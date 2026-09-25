@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+header .electricSource {
+    font-size: 11px;
+}
+header{
+padding-block: 1rem;
+display: flex;
+justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+body{
+     background-color: #F5F5F5;
+}
+
+.headerHero{
+    width: 100%;
+    max-width: 1400px;
+    padding-inline: 6rem;
+    background-size:cover;
+    min-height: 100vh;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+   cursor: pointer;
+}
+nav p{
+    display: none;
+    font-size: 3rem;
+}
+@media (max-width:1120px) {
+    .headerHero{
+        padding-inline: 1rem;
+    }
+    header{
+        font-size: 16px;
+    }
+    
+}
+@media (max-width:970px) {
+    header ul{
+        display: none;
+    }
+    nav p{
+        display: block;
+    }
+    
+}
