@@ -50,14 +50,14 @@ const ServiceCardParent = () => {
         </div>
       </div>
 
-      {/* Section Title Header */}
+   
       <p className="section-subtitle">WHY CHOOSE US?</p>
       <h2 className="section-title">Our Most Popular Services</h2>
       <p className="section-desc">
         Do you want to live in a place full of comfort and convenience, where electricity is produced by itself and you also save on it? With us it can come true faster than you think.
       </p>
 
-      {/* Cards Grid using Props */}
+   
       <div className="services-grid">
         {servicesData.map((service, index) => (
           <ServiceCard 

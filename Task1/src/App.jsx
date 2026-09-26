@@ -7,17 +7,17 @@ import Company from './components/Company';
 import AdvantageParent from './components/AdvantageParent';
 import SkillComp from './components/SkillComp';
 import ServiceCardParent from './components/ServiceCardParent';
+import { Outlet } from 'react-router-dom';
+import Footer from './components/Footer';
 export default function App() {
   return (
     <>
     <div className='headerHero' style={{backgroundImage:`url(${solar})`}}>
       <Header />
-      <Hero />
+      <Hero/>
     </div>
-     <Company/>
-     <AdvantageParent />
-     <SkillComp/>
-     <ServiceCardParent/>
+     <Outlet/>
+     <Footer />
    
     </>
 
