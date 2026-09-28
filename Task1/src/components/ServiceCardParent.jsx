@@ -1,24 +1,26 @@
 import React from 'react';
 import ServiceCard from './ServiceCard';
 import './servicecard.css';
+import imgf2 from "../assets/imgf.webp"
+import imgf1 from "../assets/imgf2.webp"
+import imgf3 from "../assets/imgf3.webp"
 
 const ServiceCardParent = () => {
   const servicesData = [
     {
-      img: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=500&q=80",
+      img:imgf2,
       heading: "Solar Panels Install",
       para: "Suspen disse ut ex porttit consequat erat pellen donce tesque justo.",
       linkText: "Read More"
     },
     {
-      img: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=500&q=80",
+      img: imgf1,
       heading: "Wind Farms",
       para: "Nullam congue sit amet turpis eu maximus. Integer pellentesque.",
       linkText: "Read More"
     },
     {
-      img: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=500&q=80",
-      heading: "EV Chargers",
+      img: imgf3,
       para: "Aliquam interdum molestie lectus, semper congue neque imperdiet.",
       linkText: "Read More"
     }

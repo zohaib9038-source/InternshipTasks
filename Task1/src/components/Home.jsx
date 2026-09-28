@@ -1,12 +1,8 @@
-import React from 'react'
-import CompanyLogo from './CompanyLogo'
-import Hero from './Hero'
-import ServiceCardParent from './ServiceCardParent'
-import solar from "../assets/—Pngtree—solar panels glisten on a_16392009.jpg";
-import AdvantageParent from './AdvantageParent'
-import Header from './Header';
-import Company from './Company';
-import SkillComp from './SkillComp';
+import React, { lazy, Suspense } from 'react'
+const ServiceCardParent=lazy(()=>import('./ServiceCardParent')); 
+const AdvantageParent=lazy(()=>import('./AdvantageParent'));
+const  Company=lazy(()=>import('./Company')) ;
+const SkillComp =lazy(()=>import('./SkillComp'));
 
 export default function Home() {
   return (
@@ -15,10 +11,12 @@ export default function Home() {
         <Header />
         <Hero />
     </div> */}
-     <Company/>
-     <AdvantageParent />
-     <SkillComp/>
-     <ServiceCardParent/>
+    <Suspense fallback={'data is loaiding...'}>
+      <Company/>
+      <AdvantageParent />
+      <SkillComp/>
+      <ServiceCardParent/>
+     </Suspense>
     </>
   )
 }

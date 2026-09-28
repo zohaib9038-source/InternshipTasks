@@ -5,7 +5,7 @@ const ServiceCard = ({ img, heading, para, linkText }) => {
   return (
     <div className="service-card">
       <div className="service-img-container">
-        <img src={img} alt={heading} className="service-img" />
+        <img src={img}  loading="lazy" alt={heading} className="service-img" />
       </div>
       <div className="service-content">
         <h3 className="service-heading">{heading}</h3>

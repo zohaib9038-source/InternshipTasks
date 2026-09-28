@@ -5,7 +5,7 @@ const AdvantageCard = ({ img, heading, para }) => {
   return (
     <div className="advantage-card">
       <div className="icon-container">
-        <img src={img} alt={heading} className="card-icon" />
+        <img src={img} loading="lazy" alt={heading} className="card-icon" />
       </div>
       <div className="cardItem">
          <h3 className="card-heading">{heading}</h3>

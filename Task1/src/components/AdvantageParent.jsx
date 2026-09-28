@@ -4,8 +4,8 @@ import './advantages.css';
 
 
 import leaf from '../assets/leaf.png';
- import target from '../assets/target.png';
- import arrow from '../assets/arrow.png';
+ import target from '../assets/target.webp';
+ import arrow from '../assets/arrow.webp';
 // import energyIcon from './assets/energy.png';
 
 const AdvantageParent = () => {
