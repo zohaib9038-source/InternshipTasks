@@ -4,7 +4,7 @@ import './servicecard.css';
 import imgf2 from "../assets/imgf.webp"
 import imgf1 from "../assets/imgf2.webp"
 import imgf3 from "../assets/imgf3.webp"
-
+import '.././index.css';
 const ServiceCardParent = () => {
   const servicesData = [
     {

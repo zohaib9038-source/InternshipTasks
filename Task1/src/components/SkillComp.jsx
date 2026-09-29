@@ -1,6 +1,9 @@
 import React from 'react';
 import SkillBar from './SkillBar';
 import './skill.css';
+import tech from "../assets/tech.webp";
+import techbig from "../assets/techbig.webp";
+
 
 const SkillComp = () => {
   return (
@@ -8,9 +11,11 @@ const SkillComp = () => {
       {/* Left Side: Image & Floating Badge */}
       <div className="image-side">
         <img 
-          src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80" 
+          src={techbig} 
           alt="Engineer with laptop" 
           loading="lazy"
+          srcSet={`${tech} 260w,${techbig} 400w`}
+          sizes="(max-width: 335px) 260px, 400px"
           className="main-engineer-img"
         />
         <div className="floating-badge">

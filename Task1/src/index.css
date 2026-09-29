@@ -1,0 +1,32 @@
+@media (max-width:350px) {
+  .main-heading {
+    font-size: 24px;
+  }
+  .content-side {
+  min-width: 200px;
+}
+.services-section .top-banner{
+  padding: 9px;
+}
+.content-side .main-heading {
+    font-size: 24px;
+}
+.services-section .top-banner .banner-left h2{
+    font-size: 17px;
+
+}
+.solar-section .image-side {
+  min-width: 260px;
+}
+.services-section .top-banner .banner-right {
+    min-width: 255px;
+}
+.services-section .banner-item h4{
+    font-size: 14px;
+}
+.solar-section .content-side {
+    min-width: 200px;
+}
+
+
+}

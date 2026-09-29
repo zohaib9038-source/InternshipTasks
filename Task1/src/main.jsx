@@ -1,17 +1,17 @@
-import { Children, StrictMode } from 'react'
+import { Children, lazy, StrictMode, Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
-import Home from './components/Home.jsx';
+const App=lazy(()=>import('./App.jsx'));
+const Home= lazy(()=>import('./components/Home.jsx')) ;
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from './components/pages/About.jsx';
-import Contact from './components/pages/Contact.jsx';
-import Blog from './components/pages/Blog.jsx';
-import Faq from './components/pages/Faq.jsx';
-import Portfolio from './components/pages/Portfolio.jsx';
-import Services from './components/pages/Services.jsx';
-import Team from './components/pages/Team.jsx';
-import Work from './components/pages/Work.jsx';
+const About =lazy(()=>import('./components/pages/About.jsx')); 
+const Contact =lazy(()=>import('./components/pages/Contact.jsx'));
+const Blog =lazy(()=>import('./components/pages/Blog.jsx'));
+const Faq =lazy(()=>import('./components/pages/Faq.jsx'));
+const Portfolio =lazy(()=>import('./components/pages/Portfolio.jsx')) ;
+const Services=lazy(()=>import('./components/pages/Services.jsx'));
+const Team=lazy(()=>import('./components/pages/Team.jsx'));
+const Work =lazy(()=>import('./components/pages/Work.jsx'));
 
 
 const router = createBrowserRouter([
@@ -61,5 +61,8 @@ const router = createBrowserRouter([
 
 let root=createRoot(document.getElementById('root'))
 root.render(
+    <Suspense fallback={"data is loading..."}>
    <RouterProvider router={router} />
+    </Suspense>
+
 )
