@@ -13,7 +13,7 @@ export default function Hero() {
                 <input type="text" placeholder='Enter your email...' />
                 <button>I Need a Quote</button>
             </div>
-            <p>looking for help?<span style={{color:""}}>get in touch with us</span></p>
+            <p className='help'>looking for help?<span style={{color:""}}>get in touch with us</span></p>
         </div>
        
     </div>
