@@ -17,6 +17,7 @@ export default function App() {
         srcSet={`${solar400} 400w, ${solar800} 800w`}
         sizes="100vw"
         className="heroBackground"
+        loading="lazy"
         alt="img not found"
       />
 
