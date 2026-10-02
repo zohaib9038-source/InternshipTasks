@@ -7,9 +7,9 @@ import "./components/header.css";
 import solar400 from "./assets/w-400_Pngtree—solar panels glisten on a_16392009.webp";
 import solar800 from "./assets/w-400_Pngtree—solar panels glisten on a_16392009.webp";
 import "./index.css";
-import { Outlet } from 'react-router-dom';
+import { json, Outlet } from 'react-router-dom';
 export default function App() {
-    const[theme,setTheme]=useState(false);
+    const[theme,setTheme]=useState(localStorage.getItem("Theme") ? JSON.parse(localStorage.getItem("Theme")): false);
   return (
     <>
     <div className="headerHero">

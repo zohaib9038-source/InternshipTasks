@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import image from "../assets/image.png";
 import "./header.css"
-import { Link } from 'react-router-dom';
+import { json, Link } from 'react-router-dom';
 export default function 
 ({themetoggle}) {
   const actualTheme=themetoggle.theme;
@@ -10,12 +10,14 @@ export default function
 
   function set_theme(){
     setTheme(!actualTheme);
+    localStorage.setItem("Theme",JSON.stringify(!actualTheme));
 
   }
     const refvariable=useRef();
     const[open,setOpen]=useState(false);
     function Toggle(){
-       setOpen(true);
+      setOpen(true);
+      
     }
     function Cross(){
         setOpen(false);
