@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Footer from './components/Footer';
@@ -9,6 +9,7 @@ import solar800 from "./assets/w-400_Pngtree—solar panels glisten on a_1639200
 import "./index.css";
 import { Outlet } from 'react-router-dom';
 export default function App() {
+    const[theme,setTheme]=useState(false);
   return (
     <>
     <div className="headerHero">
@@ -21,15 +22,16 @@ export default function App() {
         alt="img not found"
       />
 
-<div className='HomeSection'>
- <Header />
-    <Hero />
-</div>
-     
+      <div className={`HomeSection ${theme? "dark": ("")}`}>
+        <Header themetoggle={{theme,setTheme}}/>
+        <Hero />
+      </div>
     </div>
-
-    <Outlet/> 
+<div className={theme?("dark"):("")}>
+    <Outlet /> 
     <Footer />
+</div>
+   
    
     </>
 
