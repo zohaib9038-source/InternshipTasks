@@ -11,20 +11,36 @@
 header .electricSource {
     font-size: 11px;
 }
+:root{
+   --bgc:white;
+  --text:black;
+ 
+}
+.dark{
+  --bgc:black;
+  --text:white;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
 header{
 padding-block: 1rem;
 display: flex;
 justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    color:var(--text) ;
 }
-body{
-    background-color: #F5F5F5;
-}
+
 .active{
     display:block;
     position: absolute;
-    right: 0rem;
+    
+        right: 2rem;
+    top: 0;
     background: #909291; 
     padding-inline: 2.5rem;
     padding-block: 1.5rem;
@@ -62,8 +78,12 @@ header .cross{
     display: none;
 }
 header .true{
-    display: block;
-    position: relative;
+   display: block;
+    position: absolute;
+    /* position: relative; */
+    top: -1px;
+    font-size: 30px;
+    right: 2.4rem;
 }
 nav p{
     cursor: pointer;

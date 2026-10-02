@@ -1,6 +1,16 @@
+:root{
+   --bgc:white;
+  --text:black;
+ 
+}
+.dark{
+  --bgc:black;
+  --text:white;
+}
+
 .footer {
-  background-color: #0d1117;
-  color: #9ca3af;
+  background-color: var(--bgc);
+  color:var(--text);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-top: 50px;
   border-top: 1px solid #1f2937;
@@ -58,10 +68,10 @@
 }
 
 .footer-bottom {
-  background-color: #090d16;
+  /* background-color: #090d16; */
   text-align: center;
   padding: 20px 20px;
   font-size: 12px;
-  color: #6b7280;
+  /* color: #6b7280; */
   border-top: 1px solid #1f2937;
 }

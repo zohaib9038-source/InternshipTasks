@@ -4,6 +4,21 @@
 .HomeSection{
   position: relative;
 }
+:root{
+   --bgc:white;
+  --text:black;
+ 
+}
+.dark{
+  --bgc:black;
+  --text:white;
+}
+
+body{
+  background-color: white;
+  color: var(--text);
+}
+
 .heroBackground {
   position: absolute;
   inset: 0;
@@ -15,7 +30,9 @@
     text-shadow: 1px -1px #aa2222;
     color: #e1aeae;
 }
-
+header span{
+  cursor: pointer;
+}
 
 @media (max-width:350px) {
   .main-heading {
@@ -48,4 +65,22 @@
 }
 
 
+}
+/* task4 */
+.theme{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.41rem;
+    cursor: pointer;
+}
+.theme button{
+  outline: none;
+    border: none;
+    background: none;
+}
+.theme button:hover{
+  background-color: #aa2222;
+  padding-block: 0.34rem;
+  padding-inline: 0.5rem;
 }

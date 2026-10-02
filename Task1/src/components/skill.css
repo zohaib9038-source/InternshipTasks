@@ -1,5 +1,16 @@
 /* Main Section Layout */
+:root{
+   --bgc:white;
+  --text:black;
+ 
+}
+.dark{
+  --bgc:black;
+  --text:white;
+}
 .solar-section {
+  background-color: var(--bgc);
+  color: var(--text);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -63,7 +74,7 @@
 .main-heading {
   font-size: 32px;
   font-weight: 800;
-  color: #1a1a2e;
+  /* color: #1a1a2e; */
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -89,7 +100,7 @@
   justify-content: space-between;
   font-size: 14px;
   font-weight: 700;
-  color: #1a1a2e;
+  /* color: #1a1a2e; */
   margin-bottom: 8px;
 }
 

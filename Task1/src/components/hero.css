@@ -1,3 +1,14 @@
+:root{
+   --bgc:white;
+  --text:black;
+ 
+}
+.dark{
+  --bgc:black;
+  --text:white;
+}
+
+
 .hero_section{
     display: flex;
     flex-direction: column;
@@ -5,6 +16,7 @@
     gap: 2rem;
     margin-top: 5.6rem;
     align-items: center;
+    color: #5d4242;
     height: calc(100vh - 302px);
     align-self: flex-end;
     /* width: 100%;
