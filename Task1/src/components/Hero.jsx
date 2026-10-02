@@ -8,7 +8,7 @@ export default function Hero() {
     <div>
         <div className='hero_section' >
             <h1>Use Energy from The Sunand <span style={{color:"green"}}>Save Money</span></h1>
-            <p>solar panels are perfect if you are looking for reliable source of additional power and energy for your home or office</p>
+            <p className='solarPanel'>solar panels are perfect if you are looking for reliable source of additional power and energy for your home or office</p>
             <div className='searching'>
                 <input type="text" placeholder='Enter your email...' />
                 <button>I Need a Quote</button>

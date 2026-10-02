@@ -16,7 +16,7 @@
     gap: 2rem;
     margin-top: 5.6rem;
     align-items: center;
-    color: #5d4242;
+    color: #0f0202;;
     height: calc(100vh - 302px);
     align-self: flex-end;
     /* width: 100%;
@@ -62,5 +62,24 @@
     }
     .hero_section .searching{
         flex-direction: column;
+    }
+   
+}
+@media (max-width:604px) {
+     .hero_section .solarPanel{
+        font-size: 1.2rem;
+        margin-top: 4rem;
+        color: rgb(2, 3, 3);
+        font-weight: bold;
+    }
+
+}
+@media (max-width:380px) {
+    .theme >:last-child{
+      display: none;
+    }
+    .pageRoute{
+        margin-top: 7rem;
+        margin-left:1rem;
     }
 }
