@@ -10,7 +10,7 @@ export function startMockServer(url, vehicleIds, intervalMs = 5000) {
       lat: 33.6844 + Math.random() * 0.1,
       lng: 73.0479 + Math.random() * 0.1,
     };
-    server.emit('message', JSON.stringify(msg)); // sends to all connected clients
+    server.emit('message', JSON.stringify(msg));
   }, intervalMs);
 
   return {

@@ -17,6 +17,7 @@ export default function VehicleList() {
       <input
         placeholder="Filter vehicles..."
         value={filter}
+        className='filter'
         onChange={(e) => setFilter(e.target.value)}
         style={{ width: '100%', padding: 8, marginBottom: 8 }}
       />

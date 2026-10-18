@@ -1,6 +1,4 @@
-// Tiny external store. Each vehicle object keeps the SAME reference until it
-// actually changes, so a row subscribed to its own vehicle only re-renders
-// when that vehicle changes.
+
 export function createVehicleStore(initialVehicles) {
   let byId = {};
   const ids = initialVehicles.map((v) => v.id); // never changes -> list never re-renders
