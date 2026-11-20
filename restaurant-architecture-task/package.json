@@ -1,0 +1,14 @@
+{
+  "name": "restaurant-architecture-task",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JSON-based mock API for restaurant menu items and reservations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

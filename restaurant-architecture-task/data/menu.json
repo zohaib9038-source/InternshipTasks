@@ -1,0 +1,204 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Classic Beef Burger",
+      "description": "Grilled beef patty, lettuce, tomato and house sauce.",
+      "price": 850,
+      "currency": "PKR",
+      "category": "Burgers",
+      "image": "/images/burger.jpg",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Crispy Chicken Burger",
+      "description": "Crispy chicken fillet with lettuce and mayo.",
+      "price": 750,
+      "currency": "PKR",
+      "category": "Burgers",
+      "image": "/images/chicken-burger.jpg",
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Zinger Burger",
+      "description": "Spicy crispy chicken with cheese and sauce.",
+      "price": 820,
+      "currency": "PKR",
+      "category": "Burgers",
+      "image": "/images/zinger.jpg",
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "BBQ Beef Burger",
+      "description": "Beef patty with smoky barbecue sauce.",
+      "price": 920,
+      "currency": "PKR",
+      "category": "Burgers",
+      "image": "/images/bbq-burger.jpg",
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Mushroom Swiss Burger",
+      "description": "Beef patty topped with mushrooms and Swiss cheese.",
+      "price": 980,
+      "currency": "PKR",
+      "category": "Burgers",
+      "image": "/images/mushroom-burger.jpg",
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Margherita Pizza",
+      "description": "Tomato sauce, mozzarella and fresh basil.",
+      "price": 1100,
+      "currency": "PKR",
+      "category": "Pizza",
+      "image": "/images/margherita.jpg",
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "Chicken Tikka Pizza",
+      "description": "Chicken tikka, onion, capsicum and cheese.",
+      "price": 1450,
+      "currency": "PKR",
+      "category": "Pizza",
+      "image": "/images/tikka-pizza.jpg",
+      "available": true
+    },
+    {
+      "id": 8,
+      "name": "Pepperoni Pizza",
+      "description": "Pepperoni slices with mozzarella cheese.",
+      "price": 1550,
+      "currency": "PKR",
+      "category": "Pizza",
+      "image": "/images/pepperoni.jpg",
+      "available": true
+    },
+    {
+      "id": 9,
+      "name": "Fajita Pizza",
+      "description": "Chicken fajita, capsicum, onion and cheese.",
+      "price": 1500,
+      "currency": "PKR",
+      "category": "Pizza",
+      "image": "/images/fajita.jpg",
+      "available": true
+    },
+    {
+      "id": 10,
+      "name": "Vegetable Pizza",
+      "description": "Seasonal vegetables with tomato sauce and cheese.",
+      "price": 1250,
+      "currency": "PKR",
+      "category": "Pizza",
+      "image": "/images/vegetable-pizza.jpg",
+      "available": true
+    },
+    {
+      "id": 11,
+      "name": "Alfredo Pasta",
+      "description": "Pasta in a creamy white sauce.",
+      "price": 950,
+      "currency": "PKR",
+      "category": "Pasta",
+      "image": "/images/alfredo.jpg",
+      "available": true
+    },
+    {
+      "id": 12,
+      "name": "Arrabbiata Pasta",
+      "description": "Pasta in a spicy tomato and garlic sauce.",
+      "price": 900,
+      "currency": "PKR",
+      "category": "Pasta",
+      "image": "/images/arrabbiata.jpg",
+      "available": true
+    },
+    {
+      "id": 13,
+      "name": "Chicken Macaroni",
+      "description": "Macaroni with chicken and creamy sauce.",
+      "price": 880,
+      "currency": "PKR",
+      "category": "Pasta",
+      "image": "/images/macaroni.jpg",
+      "available": true
+    },
+    {
+      "id": 14,
+      "name": "Beef Lasagna",
+      "description": "Layered pasta with beef, tomato sauce and cheese.",
+      "price": 1200,
+      "currency": "PKR",
+      "category": "Pasta",
+      "image": "/images/lasagna.jpg",
+      "available": true
+    },
+    {
+      "id": 15,
+      "name": "Pesto Pasta",
+      "description": "Pasta tossed in basil pesto sauce.",
+      "price": 1050,
+      "currency": "PKR",
+      "category": "Pasta",
+      "image": "/images/pesto.jpg",
+      "available": true
+    },
+    {
+      "id": 16,
+      "name": "Fresh Lemonade",
+      "description": "Fresh lemon juice with chilled water.",
+      "price": 250,
+      "currency": "PKR",
+      "category": "Drinks",
+      "image": "/images/lemonade.jpg",
+      "available": true
+    },
+    {
+      "id": 17,
+      "name": "Mango Shake",
+      "description": "Fresh mango blended with milk.",
+      "price": 400,
+      "currency": "PKR",
+      "category": "Drinks",
+      "image": "/images/mango-shake.jpg",
+      "available": true
+    },
+    {
+      "id": 18,
+      "name": "Cold Coffee",
+      "description": "Chilled coffee blended with milk.",
+      "price": 420,
+      "currency": "PKR",
+      "category": "Drinks",
+      "image": "/images/cold-coffee.jpg",
+      "available": true
+    },
+    {
+      "id": 19,
+      "name": "Mineral Water",
+      "description": "Bottled drinking water.",
+      "price": 100,
+      "currency": "PKR",
+      "category": "Drinks",
+      "image": "/images/water.jpg",
+      "available": true
+    },
+    {
+      "id": 20,
+      "name": "Soft Drink",
+      "description": "Chilled carbonated soft drink.",
+      "price": 180,
+      "currency": "PKR",
+      "category": "Drinks",
+      "image": "/images/soft-drink.jpg",
+      "available": true
+    }
+  ]
+}
